@@ -7,6 +7,7 @@ I am [Victor][caenrigen], a human. This space might grow to contain my (technica
 ## Notes
 
 [Building the linux kernel for StarTech AV53C1 USB Bluetooth dongle support](notes/linux/kernel-build-usb-bluetooth-dongle-av53c1.md)
+[Apple bluetooth keyboards on Linux](notes/linux/apple-bluetooth-keyboard.md)
 
 ## Projects
 
