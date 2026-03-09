@@ -8,9 +8,26 @@ The info below is a reference for debugging the `btusb` driver issues and patchi
 
 Many procedures below require to disable Secure Boot (UEFI BIOS settings).
 
-## Verify if the current kernel supports our Product ID
+## Verify if the latest backported kernel supports our Product ID
 
-Install latest backported kernel:
+Add the Backports `apt`'s sources (as documented [here](https://backports.debian.org/Instructions/)) by creating the `/etc/apt/sources.list.d/debian-backports.sources` file (as `root`):
+
+```config
+Types: deb deb-src
+URIs: http://deb.debian.org/debian
+Suites: trixie-backports
+Components: main contrib non-free non-free-firmware
+Enabled: yes
+Signed-By: /usr/share/keyrings/debian-archive-keyring.gpg
+```
+
+Keep stable as the default:
+
+```bash
+echo 'APT::Default-Release "stable";' | sudo tee /etc/apt/apt.conf.d/10defaultrelease
+```
+
+Install the latest backported kernel:
 
 ```bash
 # For x86_64:
