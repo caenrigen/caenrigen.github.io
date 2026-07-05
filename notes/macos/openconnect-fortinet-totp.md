@@ -3,7 +3,7 @@
 FortiClient is [a pain](https://community.fortinet.com/t5/Support-Forum/FortiClient-VPN-disconnect-on-screen-lock-macOS/m-p/423540) on macOS.
 
 
-## `openconnect` to te rescue
+## openconnect to the rescue
 
 Did not work for me:
 
