@@ -12,6 +12,8 @@ I am [Victor][caenrigen], a human. This space might grow to contain my (technica
 
 [Automated Fortinet SSL-VPN password and TOTP via macOS Keychain](notes/macos/openconnect-fortinet-totp.md)
 
+[FreshTomato - Taming the Amber LEDs](notes/tomato/amber-leds.md)
+
 ## Projects
 
 [This space][Homepage] started as the homepage of the [LatexKit] Add-on for Google Sheets and the [Calefficient] priorities and time management companion for Google Calendar and Google Sheets. Both of these are still available and alive-ish, but I am not actively working on them anymore.
